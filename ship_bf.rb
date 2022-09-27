@@ -8,9 +8,10 @@ class Field
     end
     def display_field
         v = 0
-        puts "  0 1 2 3 4 5 6 7 8 9" 
+        puts "    A B C D E F G H J K"
+        puts "    -------------------" 
         for line in @field do
-            puts "#{v} #{line.join(' ')}"
+            puts "#{v} | #{line.join(' ')}"
             v += 1
         end
     end
